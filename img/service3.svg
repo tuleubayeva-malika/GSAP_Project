@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 136" width="136" height="136">
+	<title>5406716</title>
+	<defs>
+		<image  width="51" height="67" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAABDCAMAAAAGXc3ZAAAAAXNSR0IB2cksfwAAAH5QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////snyM2gAAACp0Uk5TAAkgBIr3/ykwC09eLDjmmwNxz2Dt8Kze8mPgcGnpwEBLyAJc/rEWHxEhZyyhbwAAAMVJREFUeJzt18kOgjAQBuAWugiiLCq4sa++/wsK7YnYHgYPJmbm0sk//ZLemiHEUtShtpGlXMYFZy7IMLEUgxDKleGQ5zlCl9xgdmjQoPmp8fx9ADSH45yFEcR4RxXGEOPrMIGYkw7PG8wFzT8amWZJHIGMvC5nCDKpbgKIyXRzg5i7bh5o0KBB84V5Go00mZwUuilXU/O+UOqrBanUWTerqXkvaWqVVoS0uej6YT217D9D34m8XbponMhn0ZdpkZnG+Td4A05JJd8RV6aYAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #05a1d7 } 
+	</style>
+	<g id="Design">
+		<path id="Ellipse " class="s0" d="m68.4 1.3c36.9 0 66.8 29.9 66.8 66.8 0 36.9-29.9 66.8-66.8 66.8-36.9 0-66.8-29.9-66.8-66.8 0-36.9 29.9-66.8 66.8-66.8z"/>
+		<use id="Vector" href="#img1" x="43" y="35"/>
+	</g>
+</svg>

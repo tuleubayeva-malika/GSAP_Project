@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+}
+
+body {
+    width: 800px;
+    height: 452px;
+    background-image: url(/GSAP_Project/img/bg_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 2px solid darkblue; */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo img {
+    height: 40px;
+    margin: 10px 30px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px 30px;
+}
+
+.social_icons img {
+    height: 15px;
+    padding: 0 2px;
+}
+
+.site_address a {
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit";
+    font-size: 12px;
+}
+.headline {
+    margin: 15px 0 0 30px;
+}
+
+.headline div {
+    font-family: "Kanit";
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    margin: 0;
+}
+
+h3 {
+    font-family: "Kanit";
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    width: 200px;
+    margin: 25px 0 0 30px;
+}
+
+.service {
+    display: flex;
+    margin: 15px 0 0 30px;
+    gap: 10px;
+}
+
+article {
+    width: 160px;
+}
+
+article div {
+    display: flex;
+    gap: 7px
+}
+
+article p {
+    font-family: "Kanit";
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+}
+
+article div > p {
+    font-family: "Kanit";
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+
+footer {
+    background-color: #dbdbdb;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Kanit";
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    margin: 10px 30px;
+}

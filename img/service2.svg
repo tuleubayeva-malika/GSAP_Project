@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 135" width="135" height="135">
+	<title>5406716</title>
+	<defs>
+		<image  width="67" height="81" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABRCAMAAAC+CuvRAAAAAXNSR0IB2cksfwAAAQtQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////v0STIwAAAFl0Uk5TAAEqVGB7m4YWGYvn//xob/X+SgOk+UKd9loJZe/g+7u9ywYbVSAwicSguVZe97HMQNk2EeM5kHa20uFrnrKIyCf4X0vq+gc6UEMSKDJ5gIOVnARxutChK/Ab1myIAAACEklEQVR4nO3Y2VLCMBSA4RbFBaqCLAooIlAUdwXFFRUV3FAEt/d/EnFIa9uck5OIw3jBf5vJN6UtEziaxtJ9I6OC/GPjE5q4yUDQoJqaFgn6TIgUuoVncSISlRG6xeKoMSdJGMY8hiSkCRRJ0neTRFL2+sIiVppAlthixoff9UXxlejssS5nccJlAEiOreQFhNvgEZMtFOQNDlExYgiiYqzMw4iKMRqHESVDgxE1A0YUDRBRNSBE2QAQdYNHfmFwiIqxWmStTVlIel3RgApv9G8Ym39gdHd6DXPL+naGt3csY1dk7HmNUtmxmt5nxoHIML1GxbV8yIzSkYpRdC0fWx8meXJa9HaGGVWXcS660QXMuLh0GrVfGdrVtS3c+EWEwNDqjdted/dCQmRINzQGYTxYS4/NJ1HNR9ww2cqzQfVMGXGSMIw4YbQkjBZhvEgYc4RRkzBqhNHOkESmTT2XbOf1TdRrx/oBiRv9vGND438bP2c2XGzLpAzXmQ1XLhFGBdvpqEIYRWyjo3fCqGIbHVUJw31mg11eUM/FcWbDXV/R74d9ZsM16oN5x4bG3xkP9CbUkPq/D5ZnO3Nycweo7HZvY0iXm38AfVgH4pLmnMN8onMYvgV7V0pTnQdxBZPfV6Uyl+JL9D6a/HyMj/0WkZ/T8UUj1j2WnBdyhWZ0x5OSmVt6CwYmPc+bmJ9yjfjsa/gCqm3TgYipriEAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #05a1d7 } 
+	</style>
+	<g id="Design">
+		<path id="Ellipse " class="s0" d="m67.4 1.3c36.9 0 66.8 29.9 66.8 66.8 0 36.9-29.9 66.8-66.8 66.8-36.9 0-66.8-29.9-66.8-66.8 0-36.9 29.9-66.8 66.8-66.8z"/>
+		<use id="Vector" href="#img1" x="37" y="24"/>
+	</g>
+</svg>

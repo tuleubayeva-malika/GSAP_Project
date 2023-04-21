@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GSAP Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="/GSAP_Project/img/logo.svg" alt="company_logo">
+            </div>
+            <div class="social">
+                <div class="social_icons">
+                    <img src="/GSAP_Project/img/Instagram.svg" alt="Instagram">
+                    <img src="/GSAP_Project/img/Facebook.svg" alt="Facebook">
+                    <img src="/GSAP_Project/img/Twitter.svg" alt="Twitter">
+                    <img src="/GSAP_Project/img/WhatsApp.svg" alt="WhatsApp">
+                </div>
+                <div class="site_address">
+                    <a href="https://www.yoursite.com">www.yoursite.com</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="headline">
+            <div class="headline1">Creative</div>
+            <div class="headline2">marketing</div>
+            <div class="headline3">agency</div>
+        </div>
+        <h3>Our service</h3>
+        <div class="service">
+            <article>
+                <div class="article1">
+                    <img src="/GSAP_Project/img/service1.svg" width="40px">
+                    <p class="subtitle">Lorem</p>
+                </div>
+                <p class="desc">Lorem ipsum dolor sit amettur adipiscinged</p>
+            </article>
+            <article>
+                <div class="article2">
+                    <img src="/GSAP_Project/img/service2.svg" width="40px">
+                    <p class="subtitle">Lorem</p>
+                </div>
+                <p class="desc">Lorem ipsum dolor sit amettur adipiscinged</p>
+            </article>
+            <article>
+                <div class="article3">
+                    <img src="/GSAP_Project/img/service3.svg" width="40px">
+                    <p class="subtitle">Lorem</p>
+                </div>
+                <p class="desc">Lorem ipsum dolor sit amettur adipiscinged</p>
+            </article>
+        </div>
+        <footer>
+            <div>
+                <p class="number">+123 456 789</p>
+                <p class="email">yourmail@email.com</p>
+            </div>
+        </footer>
+            </div>
+        </div>
+        <script>
+            let tl = gsap.timeline({defaults:{opacity:0, ease:"back"}});
+            tl.from("body", {ease:"linear"})
+              .from(".logo", {y:-80, duration:1})
+              .from(".social_icons", {y:-80, duration:1}, "<")
+              .from(".site_address", {y:-50, duration:1}, "<0.5")
+              .from(".headline1", {x:50, duration:1}, "<0.5")
+              .from(".headline2", {x:-50, duration:1}, "-=0.8")
+              .from(".headline3", {x:50, duration:1}, "-=0.8")
+              .from("h3", {xPercent:-100, left:"100%", duration:1}, "<0.7")
+              .from(".article1 img", {scale:3, duration:1}, "-=0.2")
+              .from(".article1 .subtitle", {scale:0, duration:1}, "<0.2")
+              .from(".article2 img", {scale:3, duration:1}, "-=0.2")
+              .from(".article2 .subtitle", {scale:0, duration:1}, "<0.2")
+              .from(".article3 img", {scale:3, duration:1}, "-=0.2")
+              .from(".article3 .subtitle", {scale:0, duration:1}, "<0.2")
+              .from(".desc", {x:-50, duration:1}, "<0.2")
+              .from("footer div", {x:-50, duration:1}, "<0.5")
+              
+        </script>
+    </body>
+</html>
