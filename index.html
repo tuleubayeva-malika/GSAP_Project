@@ -67,8 +67,7 @@
         </div>
         <script>
             let tl = gsap.timeline({defaults:{opacity:0, ease:"back"}});
-            tl.from("body", {ease:"linear"})
-              .from(".logo", {y:-80, duration:1})
+            tl.from(".logo", {y:-80, duration:1})
               .from(".social_icons", {y:-80, duration:1}, "<")
               .from(".site_address", {y:-50, duration:1}, "<0.5")
               .from(".headline1", {x:50, duration:1}, "<0.5")
